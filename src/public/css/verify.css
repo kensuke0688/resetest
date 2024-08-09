@@ -1,0 +1,59 @@
+/* resources/css/app.css */
+
+.container {
+    margin-top: 20px;
+}
+
+.card {
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.card-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card-body {
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.alert-success {
+    border: 1px solid #d4edda;
+    background-color: #d4edda;
+    color: #155724;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.btn-link {
+    color: #007bff;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.btn-link:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+.d-inline {
+    display: inline;
+}
+
+.p-0 {
+    padding: 0;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.align-baseline {
+    vertical-align: baseline;
+}

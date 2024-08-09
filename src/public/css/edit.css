@@ -1,0 +1,73 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+}
+
+.restaurant-info-container,
+.reservation-form-container {
+    width: 48%;
+}
+
+.restaurant-info {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.reservation-form-container {
+    margin-left: 100px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+        /* 入力欄の間隔を調整 */
+    align-items: flex-start;
+        /* 入力欄を左揃えにする */
+}
+
+.restaurant-info img {
+    max-width: 100%;
+    height: auto;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.btn-primary {
+    margin-top: 370px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 150%;
+    /* 入力欄を親要素に合わせる */
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    margin-top: 300px;
+    padding: 10px 15px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 430%;
+
+}
+
+button:hover {
+    background-color: #003f7f;
+}

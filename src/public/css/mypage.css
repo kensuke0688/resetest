@@ -1,0 +1,183 @@
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: #f8f8f8;
+    padding: 100px;
+}
+
+.reservation-section {
+    flex-grow: 1;
+    margin: 50px;
+}
+
+.favorite-section {
+    flex: 1;
+    margin: 10px;
+}
+
+.content__title {
+    font-size: 24px;
+}
+
+.reservation-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.restaurant-item {
+    margin-top: 10px;
+    margin-right: 50px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.restaurant-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.reservation-section li {
+    position: relative;
+    /* 追加 */
+    background: #007bff;
+    color: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width: 400px;
+    height: 200px;
+}
+
+.reservation-section li strong {
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.delete-button {
+    position: absolute;
+    /* 絶対配置 */
+    top: 20px;
+    /* 必要に応じて調整 */
+    right: 20px;
+    /* 必要に応じて調整 */
+    background-color: transparent;
+    /* 背景色を透明に */
+    border: 2px solid white;
+    /* 枠線の色と太さ */
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: white;
+    /* アイコンの色 */
+    border-radius: 50%;
+    /* 円形にする */
+    width: 30px;
+    /* 必要に応じて調整 */
+    height: 30px;
+    /* 必要に応じて調整 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: border-color 0.3s, color 0.3s;
+}
+
+.delete-button:hover {
+    border-color: #c82333;
+    /* ホバー時の枠線の色 */
+    color: #c82333;
+    /* ホバー時のアイコンの色 */
+}
+
+.delete-button i {
+    font-size: 1.2rem;
+    /* アイコンの大きさ */
+}
+
+.restaurant-item .actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    border-top: 1px solid #ddd;
+    background-color: #fff;
+}
+
+.details-button {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.details-button:hover {
+    background-color: #0056b3;
+}
+
+/* 他のCSSスタイル */
+
+/* 予約変更ボタンの右寄せ */
+ul li {
+    position: relative;
+}
+
+.edit-button {
+    position: absolute;
+    right: 5%;
+    top: 90%;
+    transform: translateY(-50%);
+    margin-left: 10px;
+}
+
+.favorite-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5em;
+    color: #e74c3c;
+}
+
+.favorite-button .heart {
+    transition: color 0.2s;
+}
+
+.favorite-button:hover .heart {
+    color: #c0392b;
+}
+
+/* 例：ハートマークのスタイル */
+.heart-icon {
+    color: #ccc;
+    cursor: pointer;
+}
+
+/* チェックされたときのスタイル */
+.favorite-button input[type="submit"]:checked+.heart-icon,
+.heart.red {
+    color: red;
+}
+
+.qr-code {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.qr-code p{
+    color: black;
+}
+
+.qr-code img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+

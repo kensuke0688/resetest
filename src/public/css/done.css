@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.done-page {
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.thanks-page__inner {
+    background-color: white;
+    padding: 100px;
+    margin: 50px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.done-page__message {
+    font-weight: 200;
+    font-size: 24px;
+}
+
+.done-page__btn {
+    display: block;
+    margin: 32px auto 0;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.done-page__btn:hover {
+    background-color: #0056b3;
+}

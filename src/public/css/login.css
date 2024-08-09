@@ -1,0 +1,107 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.login-form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 200%;
+    height: 100%;
+}
+
+.login-form {
+    background-color: #fff;
+    text-align: center;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.login-form__heading {
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    color: white;
+    background-color: #1E90FF;
+    padding: 20px;
+}
+
+.login-form__inner {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form__group {
+    margin-bottom: 15px;
+}
+
+.login-form__label {
+    display: flex;
+}
+
+
+.login-form__input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+    /* 下線を追加 */
+    border-radius: 0;
+    /* ボーダーの角を丸くしない */
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.login-form__input:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+.login-form__error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.login-form__btn-container {
+    text-align: right;
+}
+
+.login-form__btn {
+    width: 20%;
+    padding: 10px;
+    background-color: #1E90FF;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-form__btn:hover {
+    background-color: #0056b3;
+}
+
+/* Additional button styles for better visibility */
+.btn {
+    transition: background-color 0.3s ease;
+}
+
+/* デバイスの幅が768px以下の場合に適用するスタイル */
+@media (max-width: 768px) {
+    .register-form {
+        max-width: 100%;
+        /* フォームの幅を100%に設定 */
+    }
+}
